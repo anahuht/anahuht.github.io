@@ -1,0 +1,157 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+    
+}
+
+h1 {
+    margin: 40px;
+}
+
+#view-1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.container {
+    width: 50%;
+}
+
+.container p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+.btn button{
+    width: 25%;
+    height: 100%;
+    border-radius: 2px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+.btn  a{
+    color: rgba(0, 0, 0);
+    text-decoration: none;
+}
+
+#view-2 {
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.about img {
+    width: 300px;
+    margin: 25px;
+}
+
+#view-2 button{
+    border-radius: 3px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border: black 1px solid;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#view-2 button:hover {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border: black 1px solid;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.about {
+    margin-left:auto;
+    margin-right:auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#view-2 p {
+    margin: 25px;
+    width: auto;
+}
+
+
+#view-3
+{
+    height: auto;
+    width: 100vw;
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.card img {
+    width: 450px;
+    height: auto;
+}
+
+.card a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    height: 5vh;
+    width: 100vw;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    color: rgba(0, 0, 0);
+    text-decoration: none;
+    margin-left: 15px;
+}
